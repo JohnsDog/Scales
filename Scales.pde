@@ -3,9 +3,31 @@ void setup() {
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-  //your code here
+  scale();
 }
 void scale(int x, int y) {
-  //your code here
+ fill(0, 0, 0);
+ beginShape();
+ curveVertex(100, 110);
+ curveVertex(100, 110);
+ curveVertex(100, 150);
+ curveVertex(110, 175);
+ curveVertex(150, 200);
+ curveVertex(250, 200);
+ curveVertex(280, 150);
+ curveVertex(240, 100);
+ curveVertex(150, 80);
+ curveVertex(110, 90);
+ curveVertex(100, 110);
+ curveVertex(100, 110);
+ endShape();
+ fill(250, 250, 250);
+ bezier(100, 100, 120, 50, 200, 50, 270, 125);
+ fill(44, 38, 38);
+ bezier(100, 100, 210, 270, 310, 200, 270, 125);
+ fill(85, 72, 72);
+ bezier(100, 100, 50, 230, 250, 230, 270, 125);
+ fill(64, 62, 62);
+ bezier(100, 100, 160, 240, 230, 240, 270, 125);
 }
 
