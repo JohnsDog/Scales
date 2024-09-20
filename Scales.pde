@@ -6,21 +6,6 @@ void draw() {
   scale();
 }
 void scale(int x, int y) {
- fill(0, 0, 0);
- beginShape();
- curveVertex(100, 110);
- curveVertex(100, 110);
- curveVertex(100, 150);
- curveVertex(110, 175);
- curveVertex(150, 200);
- curveVertex(250, 200);
- curveVertex(280, 150);
- curveVertex(240, 100);
- curveVertex(150, 80);
- curveVertex(110, 90);
- curveVertex(100, 110);
- curveVertex(100, 110);
- endShape();
  fill(250, 250, 250);
  bezier(100, 100, 120, 50, 200, 50, 270, 125);
  fill(44, 38, 38);
